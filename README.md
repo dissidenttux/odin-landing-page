@@ -15,3 +15,6 @@ Project assignment also gives freedom to substitute assets into design, specific
 - Images
 - Colors
 - Fonts
+
+## Additional information
+Also an exersize in [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
