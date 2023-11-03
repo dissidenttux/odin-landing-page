@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+button {
+    border: 1px solid #FFF;
+    border-radius: 4px;
+}
+
+button,
+.action-call {
+    background-color: #3882F6;
+    color: #FFFFFF;
+}
+
+figure {
+    border: 3px solid #498bf6;
+}
+
+footer {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.button-hero {
+    border: none;
+}
+
+.section-hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
