@@ -6,6 +6,18 @@ body {
     min-height: 100vh;
 }
 
+body > * > * {
+    margin: 0 15%;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+}
+
 button {
     border: 1px solid #FFF;
     border-radius: 4px;
@@ -17,22 +29,42 @@ button,
     color: #FFFFFF;
 }
 
+hgroup {
+    display: flex;
+}
+
 figure {
     border: 3px solid #498bf6;
 }
 
 footer {
-    background-color: #3882F6;
-    color: #F9FAF8;
-}
-
-.button-hero {
-    border: none;
-}
-
-.section-hero {
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+img.hero-img {
+    height: 225px;
+    width: 525px;
+}
+
+div.hero-message {
+    display: flex;
+    flex-direction: column;
+}
+
+div.section-hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+div.action-call {
+    display: flex;
+    border-radius: 8px;
+    margin: 6.25rem;
+}
+
+hgroup.button-hero {
+    border: none;
 }
 
 .quote {
