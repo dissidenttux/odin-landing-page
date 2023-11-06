@@ -21,10 +21,18 @@ nav ul {
 }
 
 button {
-    border: 1px solid #FFF;
-    border-radius: 4px;
+    border: 2px solid #FFF;
+    border-radius: 6px;
     background-color: #3882F6;
     color: #FFFFFF;
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button.button-hero {
+    border: 0;
 }
 
 hgroup {
@@ -40,6 +48,8 @@ figure {
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
+    text-align: center;
+    padding: 3rem 0;
 }
 
 blockquote {
@@ -97,7 +107,22 @@ div.action-call {
     border-radius: 8px;
     background-color: #3882F6;
     color: #FFFFFF;
+    justify-content: center;
+    gap: 13rem;
+    align-items: center;
+    padding: 3rem 0;
 }
+
+div.action-call-text p,
+div.action-call-text h2 {
+    margin: 0;
+}
+
+div.action-call-text p {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
 
 div.randinfo-images {
     display: flex;
