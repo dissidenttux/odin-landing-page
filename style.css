@@ -23,16 +23,14 @@ nav ul {
 button {
     border: 1px solid #FFF;
     border-radius: 4px;
-}
-
-button,
-.action-call {
     background-color: #3882F6;
     color: #FFFFFF;
 }
 
 hgroup {
     display: flex;
+    justify-content: space-between;
+    padding: 8rem 0;
 }
 
 figure {
@@ -44,44 +42,109 @@ footer {
     color: #F9FAF8;
 }
 
+blockquote {
+    font-family: Ubuntu, sans-serif;
+    padding: 0 150px;
+    text-align: left;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+cite {
+    font-size: 1.5rem; /* font-family, font-size, font-stretch, font-style */
+    text-align: end;
+    padding: 0 16rem;
+    font-family: Ubuntu;
+    font-weight: bold;
+}
+
 img.hero-img {
-    height: 225px;
-    width: 525px;
+    height: 220px;
+    width: 572px;
 }
 
 div.hero-message {
     display: flex;
     flex-direction: column;
+    max-width: 490px;
+    margin: ;
 }
 
 div.section-hero {
     background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+div.section-hero h1 { /* Logo */
+    font-size: 24px;
+}
+
+div.section-hero h2 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+div.section-hero h1, /* Logo */
+div.section-hero h2 {
     color: #F9FAF8;
+    margin: 0;
 }
 
 div.action-call {
     display: flex;
     border-radius: 8px;
-    margin: 6.25rem;
+    background-color: #3882F6;
+    color: #FFFFFF;
 }
 
 div.randinfo-images {
     display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+div.randinfo-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+div.randinfo-images div.randinfo-image figcaption {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align:  center;
+    width: 149px;
 }
 
 hgroup.button-hero {
     border: none;
 }
 
+section.randinfo {
+    text-align: center;
+    padding: 2rem 0 6rem 0;
+}
+
+section.randinfo h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
 figure {
-    border-radius: 6px;
-    height: 12rem;
-    width: 12rem;
+    border-radius: 12px;
+    height: 8rem;
+    width: 8rem;
 }
 
 nav {
     display: flex;
     align-items: center;
+    margin-top: 1rem;
 }
 
 nav ul {
@@ -98,9 +161,17 @@ nav ul li a {
 }
 
 section {
-    margin: 1rem;
+    margin: 1rem 0;
+}
+
+section.action-call {
+    padding: 6rem 0;
 }
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 6rem 0;
 }
